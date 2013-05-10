@@ -1,8 +1,14 @@
 Add the following to a file called .ssh/config
 
+# To connect to Daniel Glauser's VM 
 Host daniel
 User vagrant
 ProxyCommand ssh -q theden nc -q0 localhost 8675
+
+# To connect to Sean Duckett's VM
+Host seanduckett
+User pair
+ProxyCommand ssh -q theden nc -q0 localhost 3742
 
 # Misc
 Host theden
