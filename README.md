@@ -16,6 +16,7 @@ Hostname denofclojure.org
 ForwardAgent yes
 
 Once we arrange for a meeting time I execute the following alias:
+(NOTE: this would vary as to whom is tunneling for the setup. Sean would set the port to 3742, Daniel to 8675....)
 alias tunnel-dnc="ssh -nNT -R 8675:localhost:22 daniel@denofclojure.org"
 
 then in another shell I run the alias:
