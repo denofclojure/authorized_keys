@@ -1,4 +1,4 @@
-Add the following to a file called .ssh/config
+Take the contents of config and add it to your .ssh/config
 
 # To connect to Daniel Glauser's VM 
 Host daniel
