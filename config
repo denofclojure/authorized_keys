@@ -1,4 +1,4 @@
-Host daniel
+Host theden
 User vagrant
 ProxyCommand ssh -q theden nc -q0 localhost 8675
  
