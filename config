@@ -7,3 +7,8 @@ Host theden
 User your-username-on-denofclojrue.org
 Hostname denofclojure.org
 ForwardAgent yes
+
+Host *
+ForwardAgent yes
+StrictHostKeyChecking no
+ServerAliveInterval 120
