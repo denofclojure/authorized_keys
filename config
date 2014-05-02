@@ -2,6 +2,14 @@ Host daniel
 User vagrant
 ProxyCommand ssh -q theden nc -q0 localhost 8675
  
+Host sean
+User vagrant
+ProxyCommand ssh -q theden nc -q0 localhost 3742
+
+Host trevor
+User vagrant
+ProxyCommand ssh -q theden nc -q0 localhost 3279
+
 # Misc
 Host theden
 User your-username-on-denofclojrue.org
