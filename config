@@ -10,9 +10,9 @@ Host trevor
 User vagrant
 ProxyCommand ssh -q theden nc -q0 localhost 3279
 
-# Misc
+# Nice to have things...
 Host theden
-User your-username-on-denofclojrue.org
+#User your-username-on-denofclojure.org
 Hostname denofclojure.org
 ForwardAgent yes
 
