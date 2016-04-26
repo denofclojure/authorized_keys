@@ -49,3 +49,6 @@ to bring it up without issue.
 3) If you can bring the box up just fine, then edit the local config to
 forward any ports you need. If we're remote pairing you would want to
 forward the port specified earlier. The Vagrant docs include the info:
+
+# OS X notes
+Because I always forget, SSH is called "Remote Login" under "File Sharing" of "System Preferences"
